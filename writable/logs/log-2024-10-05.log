@@ -1,0 +1,304 @@
+CRITICAL - 2024-10-05 11:51:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:51:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:52:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:52:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:52:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:52:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:53:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 11:53:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/user_data.php"
+[Method: GET, Route: users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/user_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user/user_data', [], true)
+ 3 APPPATH\Views\layout\content.php(4): view('user/user_data')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 7 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+11 APPPATH\Controllers\UserController.php(15): view('layout/wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+INFO - 2024-10-05 11:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-05 12:01:52 --> mysqli_sql_exception: Unknown column 'users.username' in 'field list' in C:\laragon\www\freelance\e_arsip\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\freelance\e_arsip\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `users`....', 0)
+#1 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\freelance\e_arsip\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\freelance\e_arsip\app\Models\User_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\freelance\e_arsip\app\Controllers\UserController.php(35): App\Models\User_model->getFilteredData('', 'users.id', 'asc', '0', '10')
+#6 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(933): App\Controllers\UserController->getDatatables()
+#7 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\freelance\e_arsip\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\freelance\e_arsip\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\freelance\e_arsip\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\freelance\e_arsip\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-10-05 12:01:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+[Method: POST, Route: users/getDatatables]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\User_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(35): App\Models\User_model->getFilteredData('', 'users.id', 'asc', '0', '10')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getDatatables()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 12:01:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH\Models\User_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(35): App\Models\User_model->getFilteredData('', 'users.id', 'asc', '0', '10')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getDatatables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-10-05 12:01:52 --> [Caused by] mysqli_sql_exception: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`username`, `department`.`department_name`
+FROM `users`
+LEFT JOIN `department` ON `department`.`id` = `users`.`department_id`
+ORDER BY `users`.`id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\User_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(35): App\Models\User_model->getFilteredData('', 'users.id', 'asc', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getDatatables()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+INFO - 2024-10-05 12:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 12:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 18:51:38 --> ErrorException: Undefined variable $session
+[Method: GET, Route: users]
+in APPPATH\Views\layout\header.php on line 222.
+ 1 APPPATH\Views\layout\header.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\header.php', 222)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\layout\wrapper.php(4): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH\Controllers\UserController.php(16): view('layout/wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+INFO - 2024-10-05 18:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-05 18:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,334 @@
+CRITICAL - 2024-09-28 21:34:56 --> ErrorException: Undefined variable $content
+[Method: GET, Route: /]
+in APPPATH\Views\layout\content.php on line 3.
+ 1 APPPATH\Views\layout\content.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 5 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH\Controllers\Home.php(13): view('layout/wrapper')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 21:34:56 --> ErrorException: Undefined variable $content
+[Method: GET, Route: /]
+in APPPATH\Views\layout\content.php on line 3.
+ 1 APPPATH\Views\layout\content.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 5 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH\Controllers\Home.php(13): view('layout/wrapper')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 21:35:29 --> ErrorException: Undefined variable $content
+[Method: GET, Route: /]
+in APPPATH\Views\layout\content.php on line 3.
+ 1 APPPATH\Views\layout\content.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 5 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH\Controllers\Home.php(13): view('layout/wrapper')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 21:35:43 --> ErrorException: Undefined variable $content
+[Method: GET, Route: /]
+in APPPATH\Views\layout\content.php on line 3.
+ 1 APPPATH\Views\layout\content.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\content.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/content', [], true)
+ 5 APPPATH\Views\layout\wrapper.php(6): view('layout/content')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\freelance\\e_arsip\\app\\Views\\layout\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/wrapper', [], true)
+ 9 APPPATH\Controllers\Home.php(13): view('layout/wrapper')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 21:59:28 --> Error: Class "App\Controllers\YourModel" not found
+[Method: POST, Route: department/getdata]
+in APPPATH\Controllers\DepartmentController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->getDatatables()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+ERROR - 2024-09-28 21:59:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\freelance\e_arsip\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\freelance\e_arsip\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\freelance\e_arsip\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\freelance\e_arsip\app\Models\Department_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\freelance\e_arsip\app\Controllers\DepartmentController.php(31): App\Models\Department_model->getFilteredData('', '0', 'asc', '0', '10')
+#6 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(933): App\Controllers\DepartmentController->getDatatables()
+#7 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#8 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\freelance\e_arsip\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\freelance\e_arsip\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\freelance\e_arsip\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\freelance\e_arsip\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\freelance\e_arsip\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\freelance\e_arsip\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\freelance\e_arsip\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\freelance\e_arsip\app\Models\Department_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\freelance\e_arsip\app\Controllers\DepartmentController.php(31): App\Models\Department_model->getFilteredData('', '0', 'asc', '0', '10')
+#5 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(933): App\Controllers\DepartmentController->getDatatables()
+#6 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#7 C:\laragon\www\freelance\e_arsip\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\freelance\e_arsip\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\freelance\e_arsip\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\freelance\e_arsip\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\freelance\e_arsip\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-09-28 21:59:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: POST, Route: department/getdata]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `department`
+ORDER BY `id` ASC
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\Department_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\DepartmentController.php(31): App\Models\Department_model->getFilteredData('', '0', 'asc', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->getDatatables()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:12:32 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Department_model"
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1339.
+ 1 SYSTEMPATH\BaseModel.php(1339): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Department_model')
+ 2 SYSTEMPATH\BaseModel.php(1006): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\DepartmentController.php(72): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:12:59 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Department_model"
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1339.
+ 1 SYSTEMPATH\BaseModel.php(1339): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Department_model')
+ 2 SYSTEMPATH\BaseModel.php(1006): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\DepartmentController.php(72): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:14:30 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Department_model"
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1339.
+ 1 SYSTEMPATH\BaseModel.php(1339): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Department_model')
+ 2 SYSTEMPATH\BaseModel.php(1006): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\DepartmentController.php(72): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:16:28 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(72): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:16:37 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(72): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:18:01 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(74): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:18:55 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(73): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:20:10 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(73): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:20:19 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(73): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:20:45 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(73): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:22:25 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(78): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:23:47 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(78): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:24:34 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(78): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:25:10 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: department/update]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\DepartmentController.php(78): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartmentController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
+CRITICAL - 2024-09-28 22:29:59 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: department]
+in APPPATH\Controllers\DepartmentController.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\freelance\\e_arsip\\app\\Controllers\\DepartmentController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DepartmentController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DepartmentController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\DepartmentController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\freelance\\e_arsip\\public\\index.php')
